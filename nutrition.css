@@ -1,0 +1,141 @@
+body{
+    background: linear-gradient(to bottom, #5b66e7, #0edfff)/* take note*/
+}
+.status{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    column-gap: 12px;
+    justify-content:  center;
+    margin-top: 40px;
+}
+.left,.right{
+background-color: white;
+width: 400px;
+height: 200px;
+border-radius: 30px;
+position: relative;
+overflow: hidden;
+transition: box-shadow 0.5s;
+}
+.left:hover,.right:hover{
+    box-shadow: 7px 7px 10px rgb(0,0,0,0.55);
+}
+
+.advices{
+    margin-top: 12px;
+    display:grid;
+    grid-template-columns: 820px;
+    justify-content: center;
+    row-gap: 12px;
+   
+}
+.nutrplan{
+    background-color: white;
+    border-radius: 30px;
+    width:820px;
+    height: 350px;
+    justify-content: center;
+    position: relative;
+    transition: box-shadow 0.5s, transform 0.5s;
+}
+.nnn{
+    display: inline-block;
+    width: 0.001%;
+    transition: width 1s ease;}
+    .nnn:hover::after {
+        
+        
+      }
+
+.planheading{
+    display: inline-block;
+  text-decoration: underline;
+    
+    white-space: nowrap;
+    padding-right: 100px;
+
+    transition: text-decoration 1s,border-bottom 2s;
+}
+.nutrplan:hover .planheading:hover {
+    
+   }
+    
+.underline {
+
+    border-bottom: 1px solid #5fca66;
+    
+  
+  }
+.nutrplan:hover{
+    box-shadow: 7px 7px 10px rgb(0,0,0,0.55);
+    transform: scale(1.06);
+    text-decoration: underline;
+}
+.heading{
+    position: absolute;
+    left: 22%;
+}
+p{
+    font-weight: bolder;
+}
+.textinside{
+    position:absolute;
+    top: 50px;
+    left:30px;
+}
+.planheading{
+ position:absolute;
+ left: 35%;
+}
+.detailpart{
+    position:absolute;
+    top:10%;
+    left:6%;
+    font-size:20px;
+}
+.meal-plan{
+    border-collapse: collapse;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 75%;
+
+}
+.meal-plan th,
+.meal-plan td{
+    border: 3px solid rgb(4, 0, 255);
+ align-items: center;
+ text-align:left;
+    padding: 9px;
+}
+.y{
+    width: 10px;
+    position: relative;
+}
+img{
+        position:absolute;
+        width:50px;
+        top:12px;
+        left:440px  
+}
+.nutr{
+    top:12px;
+    left:550px  
+}
+.weightlift{
+    top:12px;
+    left:510px  
+}
+.dashcontainer{
+    position: relative;
+   
+}
+.dashboard{
+    position: absolute;
+    width: 95%;
+    left:5px;
+    top:-10px;
+  
+}
+  
+  

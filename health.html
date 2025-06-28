@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="health.css">
+</head>
+<body>
+    <h1><center>BMI calculator</center></h1>
+    <div class="userdata">
+    
+        <h3>Weight :</h3><input type="text" placeholder="IN KILOGRAM" class="weight" required>
+        <h3>Height :</h3><input type="text" placeholder="IN METER" class="height" required>
+        <h3>Age :</h3><input type="text" class="age" required>
+
+    
+        <h3>Gender :</h3><select class="gender" id="gender" required>
+  <option value="">Select gender</option>
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+</select>
+    
+    <button class="enter" >Enter</button>
+    <p class="result"></p>
+</div>
+<script src="health.js" type="module"></script>
+</body>
+</html>

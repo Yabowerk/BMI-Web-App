@@ -1,0 +1,85 @@
+.texts{
+    font-weight:bolder;
+    font-size: 20px;
+    color: gray;
+    padding-left: 20%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 3px 3px 0px 3px;
+    column-gap: 0120px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.inside{
+    display: grid;
+    
+    grid-template-columns: 100px;
+    row-gap:5px;
+    background-color: #f9f9f9;
+    width: 110px;
+    height:100px;
+    border-radius: 6px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.15);
+    
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.image{
+    display:grid;
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+img{
+    width:100%;
+}
+.letfixcontainer{
+    margin-top: 40px;
+    margin-left: 46%;
+}
+.result{
+    margin-top: 130px;
+    display:grid;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 26px;
+    margin-left: 40px;
+    transition: text-decoration 0.15s;
+}
+.result:hover{
+    text-decoration: underline;
+}
+button{
+    padding: 12px 35px;
+    font-weight: bolder;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.75);
+    margin-left: 5px;
+    transition: transform 0.3s, backgroud-color 0.3s,color 0.3s,box-shadow 0.3s;
+    cursor: pointer;
+}
+button:hover{
+    transform:scale(1.1);
+    background-color: red;
+    color:white;
+    box-shadow:5px 5px 19px rgba(0,0,0,1); ;
+}
+.heightJs,.weightJs,.ageJs,.genderJs{
+    font-size: 30px;
+    align-items: center;
+    padding-left: 20%;
+}
+img,h2{
+    transition: transform 0.3s, color 0.3s;
+}
+img:hover,h2:hover{
+    color: red;
+    transform:scale(1.1);
+}
